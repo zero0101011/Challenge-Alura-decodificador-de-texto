@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="design.css">
+    
+    
+    <title>Decodificador Alura</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho_logo_Alura" src="./Imagens/logo_Alura.svg" alt="logo da Alura">
+    </header>
+    
+
+    <div class="conteudo">
+    <main class="secao_de_controle">
+        <textarea class="secao_de_controle_texto"  autofocus placeholder="Digite seu texto"></textarea>
+        
+        <p class="exclamacao"> <img src="./Imagens/exclamacao.svg" alt="exclamação"> Apenas letras minúsculas e sem acento.</p>
+        <div class="secao_de_controle_botoes">
+        <button class="secao_de_controle_botao_criptografar"  onclick="criptografar()">Criptografar</button>
+        <button class="secao_de_controle_botao_descriptografar" onclick="descriptografar()">Descriptografar</button>
+    </div>
+    </main>
+
+    <section class="painel_resultado">
+        <img class="img_garota"  src="./Imagens/garota.png" alt="Menina segurando uma lupa">
+        <div class="painel_resultado_texto">
+        <h2 class="painel_resultado_titulo">Nenhuma mensagem encontrada</h2>
+        <p class="painel_resultado_paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+        <div class="copiar">
+            <button class="botao_copiar" disabled>Copiar</button>
+        </div>
+    </section>
+</div>
+
+    <footer>
+        <h2>Desenvolvido por Samuel Carlos😉</h2>
+    </footer>
+
+    <script src="./JavaScript.js"></script>
+</body>
+</html>
