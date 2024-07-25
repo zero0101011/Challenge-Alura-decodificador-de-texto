@@ -400,4 +400,4 @@ Após implementar todas as funcionalidades e estilizações, o projeto final fic
 
 Agora você pode criptografar e descriptografar suas mensagens de forma simples e prática com esta aplicação.
 
-Espero que este guia tenha sido útil e que você tenha aprendido bastante com este projeto!
+Espero que você tenha aprendido bastante com este projeto!
